@@ -1,0 +1,32 @@
+export const projects = [
+  {
+    slug: 'ecommerce-dashboard',
+    title: 'E-Commerce Dashboard',
+    description: 'Dashboard analytics temps réel pour une plateforme e-commerce.',
+    image: '/images/projects/project-1.webp',
+    tags: ['React', 'Tailwind', 'Recharts'],
+    category: 'Fullstack',
+    github: 'https://github.com/ton-user/project-1',
+    demo: 'https://demo.example.com',
+  },
+  {
+    slug: 'portfolio-v2',
+    title: 'Portfolio v2',
+    description: 'Portfolio personnel animé avec React et Framer Motion.',
+    image: '/images/projects/project-2.webp',
+    tags: ['React', 'Framer Motion', 'Vite'],
+    category: 'Frontend',
+    github: 'https://github.com/ton-user/project-2',
+    demo: 'https://thomasdurand.dev',
+  },
+  {
+    slug: 'task-manager',
+    title: 'Task Manager',
+    description: 'Application de gestion de tâches avec drag & drop.',
+    image: '/images/projects/project-1.webp',
+    tags: ['React', 'TypeScript', 'Zustand'],
+    category: 'Fullstack',
+    github: 'https://github.com/ton-user/project-3',
+    demo: 'https://tasks.example.com',
+  },
+];

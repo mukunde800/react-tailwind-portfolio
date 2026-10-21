@@ -1,13 +1,15 @@
 import { Routes, Route } from 'react-router-dom';
-import Layout from '@/components/layout/Layout';
-import HomePage from '@/pages/HomePage';
-import NotFoundPage from '@/pages/NotFoundPage';
+import Layout from '../components/layout/Layout';
+import HomePage from '../pages/HomePage';
+import NotFoundPage from '../pages/NotFoundPage';
+import ProjectDetailPage from '../pages/ProjectDetailPage';
 
 export default function AppRouter() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
+        <Route path="projects/:slug" element={<ProjectDetailPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>
